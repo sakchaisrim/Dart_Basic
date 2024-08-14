@@ -1,0 +1,24 @@
+void main() {
+  int count = 1;
+
+  // คำสั่ง while
+  while (count <= 10) {
+    print('Line $count');
+    if (count == 5) {
+      // continue;
+      break;
+    }
+    count++;
+  }
+
+  // คำสั่ง while ทำงานไม่รู้จบ
+  // while(true){
+  //   print('Hello');
+  // }
+
+  // คำสั่ง do...while
+  do {
+    print('$count');
+    count++;
+  } while (count <= 20);
+}
